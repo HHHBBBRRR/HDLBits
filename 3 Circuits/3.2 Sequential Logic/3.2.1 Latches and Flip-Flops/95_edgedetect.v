@@ -7,7 +7,7 @@ module top_module (
 
     always @(posedge clk) begin
         in_dly <= in;
-        pedge = ~in_dly & in;
+        pedge <= ~in_dly & in;
     end
 
 endmodule
